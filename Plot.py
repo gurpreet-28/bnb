@@ -18,7 +18,7 @@ st.set_page_config(
 st.title("BNB Predicted Price")
 st.write("Welcome to our BNB Price Prediction page, where we leverage advanced machine learning models to forecast future prices of BNB. Utilizing historical data and sophisticated algorithms, we provide an interactive and visually engaging representation of predicted BNB prices.")
 
-maindf = pd.read_csv('BTC-USD.csv')
+maindf = pd.read_csv('BNB-USD.csv')
 
 closedf = maindf[['Date', 'Close']]
 
